@@ -1,0 +1,38 @@
+/* settings*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+:root{
+/* Primary */
+    /* (Full Slider Bar) */
+        --SoftCyan: hsl(174, 77%, 80%);
+    /* (Slider Backround) */
+        --StrongCyan: hsl(174, 86%, 45%);
+    /* (Discount Background) */
+        --LightGrayishRed: hsl(14, 92%, 95%);
+    /* (Discount Text) */
+        --LightRed: hsl(15, 100%, 70%);
+    /* (CTA Text) */
+        --PaleBlue: hsl(226, 100%, 87%);
+
+
+
+/* neutral */
+    /* (Pricing Component Background) */
+        --White: hsl (0, 0%, 100%);
+    /* (Main Background) */
+        --veryPaleBlue: hsl(230, 100%, 99%);
+    /* (Empty Slider Bar) */
+        --LightGrayishBlue: hsl(224, 65%, 95%);
+    /* (Toggle Background) */
+        --LightGrayishBlue: hsl(223, 50%, 87%);
+    /* (Text) */
+        --GrayishBlue: hsl(225, 20%, 60%);
+    /* (Text & CTA Background) */
+        --DarkDesaturatedBlue: hsl(227, 35%, 25%);
+}
+
+body{
+    background: var(--veryPaleBlue);
+    color: var(--GrayishBlue);
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+}
