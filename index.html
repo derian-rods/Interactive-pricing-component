@@ -4,36 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  href="./assets/img/favicon-32x32.png"/>
     <link rel="stylesheet" href="./css/style.css"><link>
     <title>Interactive pricing component</title>
 </head>
 <body>
-        <header>
-            <h1 class="header__tittle">Simple, traffic-based pricing</h1>
-            <h4 class="header__subtittle">Sign-up for our 30-day trial. No credit card required.</h4>
-        </header>
-        <main>
-            <div class="card">
-                <div class="card__header">
-                    <span class="card__header-text">Pageviews</span>
-                    <span class="card__header-price"><strong>$16.00</strong> /month</span>
-                </div>
-                <div class="card__body">
-                    <form>
-                        <div class="card__body-rangeprice">
-                            <input type="range"/>
-                        </div>
-                        <div class="card__body-toggle">
-                            <span>Monthly Billing</span>
-                            <input type="checkbox">
-                            <span class="slider round"></span>
-                        </div>
-                        <div class="card__body-discount">
-                            <span class="card__body-discount-text">Yearly Billing</span>
-                            <span class="card__body-discount-rate">25% discount</span>
-                        </div>
-                    </form>
-                    <hr />
+    <div class="container">
+            <header>
+                <h1 class="header__tittle">Simple, traffic-based pricing</h1>
+                <h5 class="header__subtittle">Sign-up for our 30-day trial. No credit card required.</h5>
+            </header>
+            <main>
+                <div class="card">
+                    <div class="card__header">
+                        <span class="card__header-text">100k Pageviews</span>
+                        <span class="card__header-price"><strong>$16.00</strong> /month</span>
+                    </div>
+                    <div class="card__body">
+                        <form>
+                            <div class="card__body-rangeprice">
+                                <input type="range"/>
+                            </div>
+                            <div class="card__body-toggle">
+                                <span>Monthly Billing</span>
+                                <input type="checkbox">
+                                
+                                <div class="card__body-discount">
+                                    <span class="card__body-discount-text">Yearly Billing</span>
+                                    <span class="card__body-discount-rate">25% discount</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                     <div class="card__footer">
                         <div class="card__footer-plus">
                             <ul class="card__footer-ul">
@@ -42,16 +44,14 @@
                                 <li class="card__footer-li">Email reports</li>
                             </ul>
                         </div>
-                        <div class="card__footer-trial">
                             <button class="card__footer-button">Start my Trial</button>
-                        </div>
                     </div>
                 </div>
-            </div>
-        </main>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://derianrs.website/">Derian Rodriguez Salazar</a>.
+            </main>
+        <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://derianrs.website/">Derian Rodriguez Salazar</a>.
+        </div>        
     </div>
 </body>
 </html>
