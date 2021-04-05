@@ -231,7 +231,7 @@ header h5 {
     margin-left: 20px;
 }
 .card__footer-plus ul {
-    list-style: url('/assets/img/icon-check.svg');
+    list-style: url('https://raw.githubusercontent.com/derian-rods/Interactive-pricing-component/af5cf9b8ade63adf26c14597f1f30b733791a4ef/assets/img/icon-check.svg');
 }
 .card__footer-button{
     margin-top: 20px;
