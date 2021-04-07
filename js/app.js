@@ -9,7 +9,7 @@ const calculePrice = (value) => {
     return new Promise((resolve, reject)=>{
         const basePage = value *2;
         const basePrice= (value * 0.32).toFixed(2);
-       (value && value <= 100) ? 
+       (value <= 100) ? 
        resolve({
             pagesView: basePage,
             price: basePrice
@@ -26,6 +26,3 @@ range.addEventListener('change', async ({target}) => {
     progressBar.style.width = target.value + '%';
 })
 
-// calculePrice(100)
-// .then(res => console.log(res))
-// .catch(err=> console.log(err))
